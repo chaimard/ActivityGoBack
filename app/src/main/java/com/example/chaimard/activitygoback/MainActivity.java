@@ -17,8 +17,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                Button btn1 = new klkl
-                btn1.show        
+//                Button btn1 = new klkl
+//                btn1.show
 
                 Intent intent = new Intent(MainActivity.this, Main2Activity.class);
                 startActivity(intent);
