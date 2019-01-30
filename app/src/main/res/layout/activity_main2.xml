@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="356dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp"
+        tools:ignore="MissingConstraints">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="56dp"
+            android:layout_alignTop="@id/textView"
+            android:layout_centerHorizontal="true"
+            android:text="Activity #2 " />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="46dp"
+            android:text="Go to Activity #3" />
+
+        <Button
+            android:id="@+id/button_x"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/button3"
+            android:layout_alignEnd="@+id/button3"
+            android:layout_marginTop="73dp"
+            android:text="Exit Application" />
+
+
+    </RelativeLayout>
+</android.support.constraint.ConstraintLayout>
